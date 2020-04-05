@@ -1,5 +1,3 @@
-// @TODO: YOUR CODE HERE!
-
 // Define SVG area dimensions
 var svgWidth = 960;
 var svgHeight = 500;
@@ -104,7 +102,3 @@ d3.csv("assets/data/data.csv").then(function(healthData) {
 }).catch(function(error) {
     console.log(error);
 });
-
-
-// add labels titles 
-// make responsive in size 
